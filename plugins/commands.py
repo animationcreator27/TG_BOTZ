@@ -58,7 +58,7 @@ async def start(client, message):
                     InlineKeyboardButton('🆘 𝐂𝐢𝐧𝐞𝐖𝐨𝐨𝐝 𝐇𝐞𝐥𝐩 𝐂𝐞𝐧𝐭𝐞𝐫 🆘', url="t.me/cinewood_support_bot")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAJeOWTqzCw95gnMkoRzi-Kd333UEA4wAAKjBAACSKDRVxK_r9UMhuoLHgQ") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEBr7Nk3c77_sE4nPX2-SODRstN4rxtJAACBAADwSQxMYnlHW4Ls8gQHgQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
